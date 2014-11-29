@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoogleCharts\GoogleCharts.csproj">
+    <ProjectReference Include="..\GoogleCharts\GoogleCharts.Web.csproj">
       <Project>{9D46FC68-B787-47A8-9C13-0ACB68514D75}</Project>
-      <Name>GoogleCharts</Name>
+      <Name>GoogleCharts.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
